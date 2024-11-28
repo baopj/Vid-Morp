@@ -1,0 +1,74 @@
+{
+  "dataset": {
+    "name": "CharadesSTA",
+    "feature_type": "clipL14",
+    "num_sample_clips": 128,
+    "normalize": true,
+    "annot_ratio": 1.0,
+    "root": "./data/charades"
+  },
+  "finetune": {
+    "resume": "",
+    "root": ""
+  },
+  "model": {
+    "name": "SimBase",
+    "config": {
+      "visual_converter": {
+        "conv_kernel_size": 3
+      },
+      "simbase": {
+        "anchor_meta": {
+          "scale_ratios_start": 0.2,
+          "scale_ratios_num": 5
+        },
+        "anchor": {
+          "feature_map_len": []
+        },
+        "multi_scale_loc": {
+          "conv1_kernel_size": 5,
+          "overlap_a_kernel_size": 3,
+          "overlap_b_kernel_size": 3,
+          "reg_a_kernel_size": 3,
+          "reg_b_kernel_size": 3
+        },
+        "pred": {
+          "input_size": 128,
+          "reg_dim": 2
+        },
+        "loss": {
+          "ratio_center": 0.3,
+          "ratio_width": 0.3,
+          "inference_regress_flag": true
+        }
+      },
+      "textual_converter": {
+        "prompt": {
+          "n_ctx": 3,
+          "ctx_init_txt": "a photo of",
+          "ctx_init_std": 0.02,
+          "reduce_flag": true
+        },
+        "reduction": {
+          "input_size": 768,
+          "output_size": 768
+        }
+      }
+    }
+  },
+  "train": {
+    "batch_size": 256,
+    "max_num_epochs": 15,
+    "optimizer": {
+      "name": "Adam",
+      "lr": 0.0008,
+      "lr_factor": 2,
+      "weight_decay_bias": 0,
+      "weight_decay": 0.00001,
+      "epsilon": 1E-8
+    },
+    "model_saved_path": "ckpt/charades_clip/",
+    "model_saved_flag": false,
+    "result_saved_flag": false
+  }
+}
