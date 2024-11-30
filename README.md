@@ -79,8 +79,8 @@ A crucial challenge in video moment retrieval is its heavy reliance on extensive
 If you use our code or models in your research, please cite with:
 ```
 @article{bao2024vidmorp,
-author={Bao, Peijun and Kong, Chenqi and Shao, Zihao and Ng, Boon Poh and Er, Menghwa, Kot, Alex C}, 
 title={Vid-Morp: Video Moment Retrieval Pretraining from Unlabeled Videos in the Wild},
+author={Bao, Peijun and Kong, Chenqi and Shao, Zihao and Ng, Boon Poh and Er, Menghwa, Kot, Alex C}, 
 journal={ArXiv},
 year={2024}
 }
