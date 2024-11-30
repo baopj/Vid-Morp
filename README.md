@@ -66,7 +66,7 @@ python main.py --cfg ./experiment/charades/recorrect_eval_configs_on_ZeroShot+Un
 -->
 ![Motivation](./fig/intro.png)
 
-Fig: A crucial challenge in video moment retrieval is its heavy reliance on extensive manual annoations for training. To overcome this, we introduce a large scale dataset for Video Moment Retrieval Pretraining (Vid-Morp), collected with minimal human involvement. Vid-Morp comprises over 50K in-the-wild videos and 200K pseudo training samples. Models pretrained on Vid-Morp significantly relieve the annotation costs and demonstrate strong generalizability across diverse downstream settings.
+A crucial challenge in video moment retrieval is its heavy reliance on extensive manual annoations for training. To overcome this, we introduce a large scale dataset for Video Moment Retrieval Pretraining (Vid-Morp), collected with minimal human involvement. Vid-Morp comprises over 50K in-the-wild videos and 200K pseudo training samples. Models pretrained on Vid-Morp significantly relieve the annotation costs and demonstrate strong generalizability across diverse downstream settings.
 
 # Dataset
 
@@ -75,4 +75,13 @@ Fig: A crucial challenge in video moment retrieval is its heavy reliance on exte
 ![Dataset Comparision](./fig/dataset_compare.png)
 
 
-  
+### Citation
+If you use our code or models in your research, please cite with:
+```
+@article{bao2024vidmorp,
+author={Bao, Peijun and Kong, Chenqi and Shao, Zihao and Ng, Boon Poh and Er, Menghwa, Kot, Alex C}, 
+title={Vid-Morp: Video Moment Retrieval Pretraining from Unlabeled Videos in the Wild},
+journal={ArXiv},
+year={2024}
+}
+```
