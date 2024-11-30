@@ -70,7 +70,7 @@ A crucial challenge in video moment retrieval is its heavy reliance on extensive
 
 # Dataset
 ### Dataset Download
-For dataset download, please email [peijun001@e.ntu.edu.sg](mailto:peijun001@e.ntu.edu.sg).
+To access the dataset download link, please email [peijun001@e.ntu.edu.sg](mailto:peijun001@e.ntu.edu.sg).
 
 ### Comparison to Existing Dataset
 
