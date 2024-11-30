@@ -69,6 +69,8 @@ python main.py --cfg ./experiment/charades/recorrect_eval_configs_on_ZeroShot+Un
 A crucial challenge in video moment retrieval is its heavy reliance on extensive manual annoations for training. To overcome this, we introduce a large scale dataset for Video Moment Retrieval Pretraining (Vid-Morp), collected with minimal human involvement. Vid-Morp comprises over 50K in-the-wild videos and 200K pseudo training samples. Models pretrained on Vid-Morp significantly relieve the annotation costs and demonstrate strong generalizability across diverse downstream settings.
 
 # Dataset
+### Dataset Download
+For dataset download, please email [peijun001@e.ntu.edu.sg](mailto:peijun001@e.ntu.edu.sg).
 
 ### Comparison to Existing Dataset
 
