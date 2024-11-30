@@ -75,7 +75,7 @@ A crucial challenge in video moment retrieval is its heavy reliance on extensive
 ![Dataset Comparision](./fig/dataset_compare.png)
 
 
-### Citation
+## Citation
 If you use our code or models in your research, please cite with:
 ```
 @article{bao2024vidmorp,
