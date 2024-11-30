@@ -70,7 +70,8 @@ A crucial challenge in video moment retrieval is its heavy reliance on extensive
 
 # Dataset
 ### Dataset Download
-To access the dataset download link, please email [peijun001@e.ntu.edu.sg](mailto:peijun001@e.ntu.edu.sg).
+To access the dataset download link, please send an email to [peijun001@e.ntu.edu.sg](mailto:peijun001@e.ntu.edu.sg).
+Note the dataset is only for academic usage. 
 
 ### Comparison to Existing Dataset
 
@@ -78,7 +79,7 @@ To access the dataset download link, please email [peijun001@e.ntu.edu.sg](mailt
 
 
 ## Citation
-If you use our code or models in your research, please cite with:
+If you use our code or dataset in your research, please cite with:
 ```
 @article{bao2024vidmorp,
 title={Vid-Morp: Video Moment Retrieval Pretraining from Unlabeled Videos in the Wild},
