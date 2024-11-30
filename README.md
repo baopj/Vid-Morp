@@ -13,18 +13,16 @@ We propose a novel pretraining dataset and algorithm for video moment retrieval 
 **TLDR**:
 We propose a new dataset and algorithm for pretraining in  video moment retrieval (VMR), which effectively relieves the high cost of human annotations.
 
+Our experiments highlight that:
+- Compared to the fully supervised approach SimBase, Our ReCorrect achieves **81.3%** and **86.7%**  of its performance  in  **zero-shot** and **unsupervised** settings.
+- This narrow performance gap underscores **the potential of our Vid-Morp dataset to address the critical challenge of VMR's heavy reliance on manual annotations.**
 
 # Quick Start
-
 
 To run the code, use the following command, which integrates the evaluation process for 1) zero-shot, 2) unsupervised, and 3) fully-supervised setting.
 ```shell script
 python main.py --cfg ./experiment/charades/recorrect_eval_configs_on_ZeroShot+Unsup+Full.json --eval
 ```
-
-The evaluation results highlight that:
-- Compared to the fully supervised approach SimBase, Our ReCorrect achieves **81.3%** and **86.7%**  of its performance  in  **zero-shot** and **unsupervised** settings.
-- This narrow performance gap underscores **the potential of our Vid-Morp dataset to address the critical challenge of VMR's heavy reliance on manual annotations.**
 
 *You do not need any extra downloading to run the code*, as the repository is self-contained with necessary features and checkpoints. 
 1. CLIP features are available in the `data/charades/feat` directory.
