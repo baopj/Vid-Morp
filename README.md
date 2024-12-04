@@ -11,6 +11,8 @@ We propose a novel pretraining dataset and algorithm for video moment retrieval 
 -->
 
 
+[https://arxiv.org/pdf/2412.00811](https://arxiv.org/pdf/2412.00811)
+
 We propose a new dataset and algorithm for video moment retrieval pretraining, which effectively relieves the high cost of human annotations.
 
 Our experiments highlight that:
