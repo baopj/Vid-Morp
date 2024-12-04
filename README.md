@@ -13,7 +13,7 @@ We propose a novel pretraining dataset and algorithm for video moment retrieval 
 
 Paper Link: [https://arxiv.org/pdf/2412.00811](https://arxiv.org/pdf/2412.00811)
 
-In this paper, we propose a new dataset and algorithm for video moment retrieval pretraining, which effectively **relieves the high cost of human annotations**.
+In this paper, we propose a new dataset and algorithm for video moment retrieval, which effectively **relieves the high cost of human annotations**.
 Our experiments highlight that:
 - Compared to the fully supervised approach SimBase, Our ReCorrect achieves **81.3%** and **86.7%**  of its performance  in  **zero-shot** and **unsupervised** settings.
 - This narrow performance gap underscores the potential of our Vid-Morp dataset to address the critical challenge of VMR's **heavy reliance on manual annotations.**
