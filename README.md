@@ -82,10 +82,10 @@ Note the dataset is only for academic usage.
 ## Citation
 If you use our code or dataset in your research, please cite with:
 ```
-@article{bao2024vidmorp,
-title={Vid-Morp: Video Moment Retrieval Pretraining from Unlabeled Videos in the Wild},
-author={Bao, Peijun and Kong, Chenqi and Shao, Zihao and Ng, Boon Poh and Er, Menghwa, Kot, Alex C}, 
-journal={ArXiv},
-year={2024}
+@article{bao2024vid,
+  title={Vid-Morp: Video Moment Retrieval Pretraining from Unlabeled Videos in the Wild},
+  author={Bao, Peijun and Kong, Chenqi and Shao, Zihao and Ng, Boon Poh and Er, Meng Hwa and Kot, Alex C},
+  journal={arXiv preprint arXiv:2412.00811},
+  year={2024}
 }
 ```
